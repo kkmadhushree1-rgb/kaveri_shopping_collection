@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style/stylelogin.css">
+</head>
+
+<body style="background-image: url(./image/b-img.jpg);
+background-size: cover;">
+    <div class="lo">
+        <img src="./image/logo.jpg" width="130" height="70">
+        <h1>
+            <center>Welcome to Kaveri shopping Cart</center>
+        </h1>
+        <h1>
+            <center>login page</center>
+        </h1>
+        <form onsubmit="loginUser(event)" autocomplete="off">
+            <center><input type="text" id="username" autocomplete="off" placeholder="Enter your name:"></center><br>
+            <center><input type="password" id="password" autocomplete="new-password" placeholder="Enter your password">
+            </center>
+            <center><button onclick="loginUser()">Login</button></center>
+            <p id="msg"></p>
+            <script src="script/login.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>

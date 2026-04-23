@@ -1,0 +1,31 @@
+.lo{
+    background-image: linear-gradient(135deg,rgb(25, 181, 243) 0%, #ee51a7 80%);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid rgb(248, 61, 223);
+    text-align: center;
+    color: rgb(247, 38, 11);
+    border-radius: 10px;
+    box-shadow:9px 7px 60px #ee51a7;
+}
+input{
+    width: 60%;
+    padding: 8px;
+    background-color: #f5cae1;
+    color: rgb(66, 180, 247);
+}
+input::placeholder{
+    color: #df4b9a;
+}
+button{
+    color: darkgreen;
+    background-image:linear-gradient(135deg,rgb(248, 63, 202)0%,red 80%);
+    margin: 20px;
+    padding: 8px 15px;
+    border:0px solid rgb(240, 74, 74) ;
+    border-radius: 30px;
+}
+body{
+    color: aqua;
+}
