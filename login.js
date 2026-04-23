@@ -4,7 +4,7 @@ function loginUser(event) {
     let pass = document.getElementById('password').value;
     if (user === "madhu" && pass === "143") {
         document.getElementById("msg").innerText = "login successful";
-        window.location.href = "index.html";
+        window.location.href = "home.html";
 
     }
     else {
