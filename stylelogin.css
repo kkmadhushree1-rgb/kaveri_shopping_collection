@@ -9,13 +9,13 @@
     border-radius: 10px;
     box-shadow:9px 7px 60px #ee51a7;
 }
-input{
+.input{
     width: 60%;
     padding: 8px;
     background-color: #f5cae1;
     color: rgb(66, 180, 247);
 }
-input::placeholder{
+.input::placeholder{
     color: #df4b9a;
 }
 button{
